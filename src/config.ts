@@ -7,15 +7,15 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja'
+  title: 'CyberBacchus Blog',
+  subtitle: '施一信的个人博客',
+  lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   },
   favicon: [    // Leave this array empty to use the default favicon
@@ -41,26 +41,26 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar_bac_2.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: '施一信 CyberBacchus',
+  bio: '经济统计学准研究生，熟悉Python和R      我相信对信息与技术的审美至关重要',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'Mail',
+      icon: 'heroicons:envelope-16-solid',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'mailto:cyberbacchus@icloud.com',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'LinkedIn',
+      icon: 'fa6-brands:linkedin',
+      url: 'https://www.linkedin.com/in/yixinshi/',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/CyberBacchus',
     },
   ],
 }
