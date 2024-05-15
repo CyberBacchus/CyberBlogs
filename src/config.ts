@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar_bac_2.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: '施一信 CyberBacchus',
-  bio: '经济统计学准研究生，熟悉Python和R-我相信对信息与技术的审美至关重要',
+  bio: '经济统计学准研究生，熟悉Python和R 我相信对信息与技术的审美至关重要',
   links: [
     {
       name: 'Mail',
